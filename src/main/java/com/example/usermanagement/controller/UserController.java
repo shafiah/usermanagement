@@ -18,4 +18,9 @@ public class UserController {
 		return "welcome to list page";
 	}
 	
+	@GetMapping("/singleuser")
+	public String singleUser() {
+		return "welcome to single user details";
+	}
+	
 }
