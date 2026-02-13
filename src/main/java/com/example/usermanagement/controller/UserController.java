@@ -12,4 +12,10 @@ public class UserController {
 	public String home() {
 		return "welcome to home page";
 	}
+	
+	@GetMapping("/list")
+	public String userList() {
+		return "welcome to list page";
+	}
+	
 }
