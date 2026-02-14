@@ -23,4 +23,10 @@ public class UserController {
 		return "welcome to single user details";
 	}
 	
+	@GetMapping("/health")
+	public String awsHealth() {
+		return "application is running n active";
+	}
+	
+	
 }
