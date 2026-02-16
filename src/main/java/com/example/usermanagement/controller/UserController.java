@@ -28,5 +28,10 @@ public class UserController {
 		return "application is running n active";
 	}
 	
+	@GetMapping("/prod")
+	public String production() {
+		return "Production server deployment is done now..";
+	}
+	
 	
 }
